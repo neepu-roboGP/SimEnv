@@ -1,0 +1,16 @@
+.git
+.gitignore
+build
+devel
+install
+logs
+generated_building
+results
+__pycache__
+*.pyc
+*.swp
+*.swo
+
+# The RL controller loads these TorchScript policies at runtime.
+!src/unitree_guide/logs/
+!src/unitree_guide/logs/*.pt
